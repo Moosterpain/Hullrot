@@ -817,7 +817,7 @@
   description: An automated fablathe preloaded with many commodity patterns. A merchant's best friend.
   components:
   - type: Sprite
-    sprite: _Crescent/Structures/cratefab.rsi
+  sprite: _Crescent/Structures/cratefab.rsi
     layers:
     - state: fab-idle
       map: ["enum.LatheVisualLayers.IsRunning"]
@@ -832,6 +832,7 @@
       tags:
       - Sheet
       - Metal
+      - Ingot
   - type: Lathe
     idleState: fab-idle
     runningState: fab-active
